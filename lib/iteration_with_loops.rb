@@ -1,7 +1,7 @@
 def find_min_in_nested_arrays(src)
   low_temp = []
   row = 0
-  temp = 60
+  temp = 24
   
 while row < src.count do
   element = 0

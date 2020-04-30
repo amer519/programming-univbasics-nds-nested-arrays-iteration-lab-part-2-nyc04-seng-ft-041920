@@ -4,9 +4,10 @@ def find_min_in_nested_arrays(src)
   temp = 24
   
 while row < src.count do
+  src.sort = src
   element = 0
  while element < src[row].count do
-   src = src.sort
+   
   if temp > src[row][element]
     
     low_temp <<  src[row][element]

@@ -1,8 +1,8 @@
 def find_min_in_nested_arrays(src)
   low_temp = []
   row = 0
-  temp = 24
-  src = src.sort!
+  temp = 100
+  
   
 while row < src.count do
   

@@ -9,7 +9,7 @@ while row < src.count do
    src = src.sort
   if temp > src[row][element]
     
-     low_temp <<  src[row][element]
+     p low_temp <<  src[row][element]
     
   end
 

@@ -6,6 +6,7 @@ def find_min_in_nested_arrays(src)
 while row < src.count do
   element = 0
  while element < src[row].count do
+   src = src.sort
   if temp > src[row][element]
     
      low_temp <<  src[row][element]

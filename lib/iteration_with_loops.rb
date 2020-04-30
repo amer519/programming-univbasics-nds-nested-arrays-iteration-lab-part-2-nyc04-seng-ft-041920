@@ -9,7 +9,7 @@ while row < src.count do
   element = 0
  while element < src[row].count do
    
-  if src[row][element][0]
+  if temp > src[row][element]
     
     low_temp <<  src[row][element]
     

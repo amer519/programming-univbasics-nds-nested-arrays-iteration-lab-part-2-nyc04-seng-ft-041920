@@ -2,6 +2,7 @@ def find_min_in_nested_arrays(src)
   low_temp = []
   row = 0
   temp = 24
+  src.sort! = src
   
 while row < src.count do
   
